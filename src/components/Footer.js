@@ -9,7 +9,7 @@ export default function Footer() {
           <h2>Questions or comments?</h2>
         </header>
 
-        <p>Life will feel it is always a great time to chat</p>
+        <p>Let us know if you have any questions or comments</p>
 
         <ContactForm />
 
@@ -26,12 +26,12 @@ export default function Footer() {
           })}
         </ul>
 
-        <ul className="copyright">
+        {/* <ul className="copyright">
           <li>&copy; Directive. All rights reserved.</li>
           <li>
             Design: <a href="http://html5up.net">HTML5 UP</a>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </div>
   );

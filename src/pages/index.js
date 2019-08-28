@@ -6,8 +6,8 @@ import { Link } from 'gatsby';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
+import pic1 from '../assets/images/welder.jpg';
+import pic2 from '../assets/images/excavators.jpg';
 import pic3 from '../assets/images/pic03.jpg';
 
 const IndexPage = () => (
@@ -17,66 +17,52 @@ const IndexPage = () => (
     <div id="main">
       <header className="major container medium">
         <h2>
-          We conduct experiments that
+          We excel in work ethic
           <br />
-          may or may not seriously
-          <br />
-          break the universe
+          and prioritize client satisfaction
         </h2>
       </header>
 
       <div className="box alt container">
         <section className="feature left">
-          <a href="/#" className="image icon fa-signal">
+          <a href="/#" className="image icon fa-cube">
             <img src={pic1} alt="" />
           </a>
           <div className="content">
-            <h3>The First Thing</h3>
+            <h3>About Us</h3>
             <p>
-              Vitae natoque dictum etiam semper magnis enim feugiat amet
-              curabitur tempor orci penatibus. Tellus erat mauris ipsum
-              fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.
+              Working in the greater Los Angeles Metropolitan area for over 30
+              years
             </p>
           </div>
         </section>
         <section className="feature right">
-          <a href="/#" className="image icon fa-code">
+          <a href="/#" className="image icon fa-picture-o">
             <img src={pic2} alt="" />
           </a>
           <div className="content">
-            <h3>The Second Thing</h3>
-            <p>
-              Vitae natoque dictum etiam semper magnis enim feugiat amet
-              curabitur tempor orci penatibus. Tellus erat mauris ipsum
-              fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.
-            </p>
+            <h3>Photos</h3>
+            <p>See what type of work we can do for you</p>
           </div>
         </section>
         <section className="feature left">
-          <a href="/#" className="image icon fa-mobile">
+          <a href="/#" className="image icon fa-envelope-o">
             <img src={pic3} alt="" />
           </a>
           <div className="content">
-            <h3>The Third Thing</h3>
-            <p>
-              Vitae natoque dictum etiam semper magnis enim feugiat amet
-              curabitur tempor orci penatibus. Tellus erat mauris ipsum
-              fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.
-            </p>
+            <h3>Contact Us</h3>
+            <p>Get in touch with us to see what we can offer you today</p>
           </div>
         </section>
       </div>
 
       <footer className="major container medium">
-        <h3>Get shady with this starter</h3>
-        <p>
-          There is also elements page in this template. Click below button to
-          check
-        </p>
+        <h3>Interested in a Quote?</h3>
+        <p>Contact us for an immediate estimate</p>
         <ul className="actions special">
           <li>
             <Link to="/Elements" className="button">
-              View Elements
+              Contact Us
             </Link>
           </li>
         </ul>
