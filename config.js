@@ -9,7 +9,8 @@ module.exports = {
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-directive/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Welcome to Miramontes Construction Co.',
-  subHeading: 'Specializing in General Construction',
+  subHeading: 'General Engineering',
+  subSubHeading: 'Specializing in Sewer, Storm Drain & Water Mains',
   // social
   socialLinks: [
     {
