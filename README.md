@@ -2,7 +2,9 @@
 
 Site for Miramontes Construction Co.
 
-Used Gatsby along with along with the gatsby-starter-directive. Really nice and easy to use.
+[Miramontes Construction Co](https://nervous-murdock-49f48f.netlify.com)
+
+Used Gatsby along with the gatsby-starter-directive. Really nice and easy to use. Lots of customizations required, and waiting on more information from the client to finish the site.
 
 ### License
 
